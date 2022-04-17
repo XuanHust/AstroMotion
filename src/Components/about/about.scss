@@ -1,0 +1,161 @@
+.about-container{
+    color: #000 ;
+    background-color: transparent;
+    padding: 60px 0;
+    padding-left: 350px;
+    margin: 0 auto;
+    width: 80%;
+    .about-content{
+        position: relative;
+        padding: 50px 20px;
+        max-width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+        .about1{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            top: -10px;
+            left: 0;
+        }
+        .about2{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            top: -10px;
+            left: 98%;
+        }
+        .about3{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            top: 98%;
+            left: 0;
+        }
+        .about4{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            top: 98%;
+            left: 98%;
+        }
+        .about-inner-content{
+            background-color: rgba($color: #000000, $alpha: 0.3);
+            border-radius: 20px;
+            padding: 40px 30px;
+            line-height: 1.7;
+            h2{
+                color: #fff;
+                font-size: 30px;
+                font-weight: 300;
+                margin-bottom: 22px;
+            }
+            p{
+                color: #ddd;
+                margin-bottom: 20px;
+                font-size: 16px;
+                strong{
+                    color: #99ff66;
+                    font-size: 16px;
+                }
+            }
+            p:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .about-container{
+        padding: 60px 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 480px){
+    .about-container{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        .about-content{
+            position: relative;
+            padding: 50px 0;
+            max-width: 100%;
+            height: 100%;
+            border-bottom: 1px solid #fff;
+            border-top: 1px solid #fff;
+            .about1{
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #fff;
+                top: -8px;
+                left: 0;
+            }
+            .about2{
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #fff;
+                top: -8px;
+                left: 98%;
+            }
+            .about3{
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #fff;
+                top: 98.7%;
+                left: 0;
+            }
+            .about4{
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #fff;
+                top: 98.7%;
+                left: 98%;
+            }
+            .about-inner-content{
+                background-color: rgba($color: #000000, $alpha: 0.3);
+                border-radius: 20px;
+                padding: 30px 20px;
+                line-height: 1.6;
+                h2{
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 100;
+                    margin-bottom: 15px;
+                }
+                p{
+                    color: #ddd;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    strong{
+                        color: #99ff66;
+                        font-size: 14px;
+                    }
+                }
+                p:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

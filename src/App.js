@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import Background from './Components/background/background';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useState, useEffect } from "react";
+import Loading from './Components/loading/loading';
 
 function App() {
+
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true)
+    }, 2000)
+
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {
+        loading ?
+          <Background />
+        :
+          <Loading />
+      }
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }
