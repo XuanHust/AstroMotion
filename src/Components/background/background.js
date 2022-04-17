@@ -12,6 +12,7 @@ import About from "../about/about";
 import Contact from "../contact/contact";
 import { useState, useEffect } from "react";
 import useViewport from "../viewport/viewport";
+import background from "../images/gfp-astro-timelapse.mp4"
 
 
 const Background = () => {
@@ -26,7 +27,7 @@ const Background = () => {
     return (
         <Router>
             <div className="background">
-                <video id="myVideo" autoPlay loop muted src="./images/gfp-astro-timelapse.mp4"></video>
+                <video id="myVideo" autoPlay loop muted src={background}></video>
                 <div className="header">
                     <h2 className="title">Astro Motion</h2>
                     {
