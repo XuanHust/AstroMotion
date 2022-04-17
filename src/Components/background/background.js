@@ -26,7 +26,7 @@ const Background = () => {
     return (
         <Router>
             <div className="background">
-                <video id="myVideo" autoPlay loop muted src="images/gfp-astro-timelapse.mp4"></video>
+                <video id="myVideo" autoPlay loop muted src="./images/gfp-astro-timelapse.mp4"></video>
                 <div className="header">
                     <h2 className="title">Astro Motion</h2>
                     {

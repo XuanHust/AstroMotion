@@ -2,6 +2,15 @@ import './gallery.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import gallery1 from "../images/gallery-img-01.jpg"
+import gallery2 from "../images/gallery-img-02.jpg"
+import gallery3 from "../images/gallery-img-03.jpg"
+import gallery4 from "../images/gallery-img-04.jpg"
+import gallery5 from "../images/gallery-img-05.jpg"
+import gallery6 from "../images/gallery-img-06.jpg"
+import gallery7 from "../images/gallery-img-07.jpg"
+import gallery8 from "../images/gallery-img-08.jpg"
+import gallery9 from "../images/gallery-img-09.jpg"
 
 const Gallery = () => {
 
@@ -51,31 +60,31 @@ const Gallery = () => {
                 <div className='gallery2'></div>
                 <Slider {...settings}>
                     <div>
-                        <img src='images/gallery-img-01.jpg' alt='img1'></img>
+                        <img src={gallery1} alt='img1'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-02.jpg' alt='img2'></img>
+                        <img src={gallery2} alt='img2'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-03.jpg' alt='img3'></img>
+                        <img src={gallery3} alt='img3'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-04.jpg' alt='img4'></img>
+                        <img src={gallery4} alt='img4'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-05.jpg' alt='img5'></img>
+                        <img src={gallery5} alt='img5'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-06.jpg' alt='img6'></img>
+                        <img src={gallery6} alt='img6'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-07.jpg' alt='img7'></img>
+                        <img src={gallery7} alt='img7'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-08.jpg' alt='img8'></img>
+                        <img src={gallery8} alt='img8'></img>
                     </div>
                     <div>
-                        <img src='images/gallery-img-09.jpg' alt='img9'></img>
+                        <img src={gallery9} alt='img9'></img>
                     </div>
                 </Slider>
             </div>

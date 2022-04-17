@@ -1,4 +1,6 @@
 import './home.scss'
+import home1 from "../images/home-img-1.jpg"
+import home2 from "../images/home-img-2.jpg"
 
 const Home = () => {
     return (
@@ -13,10 +15,10 @@ const Home = () => {
                 </div>
                 <div className='home-content-right'>
                     <p className='home-picture-top'>
-                        <img src="images/home-img-1.jpg" alt="home-img-1" />
+                        <img src={home1} alt="home-img-1" />
                     </p>
                     <p className='home-picture-bottom'>
-                        <img src="images/home-img-2.jpg" alt="home-img-1" />
+                        <img src={home2} alt="home-img-1" />
                     </p>
                 </div>
                 <div className='home-content3'></div>

@@ -1,6 +1,7 @@
 import './contact.scss'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
+import map from "../images/map.JPG"
 
 const Contact = () => {
 
@@ -69,7 +70,7 @@ const Contact = () => {
                     <p>Email: info@company.com</p>
                     <p>Tel: 010-020-0340</p>
                     <div className='contact-map'>
-                        <img src='images/map.jpg'></img>
+                        <img src={map}></img>
                     </div>
                 </div>
             </div>
