@@ -1,19 +1,30 @@
 {
   "files": {
     "main.css": "/AstroMotion/static/css/main.04c895a2.css",
-    "main.js": "/AstroMotion/static/js/main.849747c7.js",
+    "main.js": "/AstroMotion/static/js/main.c19405c6.js",
     "static/js/787.4b9a6eb5.chunk.js": "/AstroMotion/static/js/787.4b9a6eb5.chunk.js",
+    "static/media/map.JPG": "/AstroMotion/static/media/map.e6aa8c8e49ddf80108e9.JPG",
+    "static/media/gallery-img-04.jpg": "/AstroMotion/static/media/gallery-img-04.b0c05d843733a7a2650b.jpg",
+    "static/media/gallery-img-01.jpg": "/AstroMotion/static/media/gallery-img-01.b014a18d08f89339e1b3.jpg",
+    "static/media/gallery-img-08.jpg": "/AstroMotion/static/media/gallery-img-08.c4b025089b7d61659c8e.jpg",
+    "static/media/gallery-img-02.jpg": "/AstroMotion/static/media/gallery-img-02.07f9bb5b370a311388b9.jpg",
+    "static/media/gallery-img-06.jpg": "/AstroMotion/static/media/gallery-img-06.df81643216d00436ef29.jpg",
+    "static/media/gallery-img-07.jpg": "/AstroMotion/static/media/gallery-img-07.4e1edd21e8c7f777364b.jpg",
+    "static/media/gallery-img-03.jpg": "/AstroMotion/static/media/gallery-img-03.6589cdb32a62ace4666a.jpg",
+    "static/media/gallery-img-05.jpg": "/AstroMotion/static/media/gallery-img-05.e66682685e961385bf5b.jpg",
+    "static/media/gallery-img-09.jpg": "/AstroMotion/static/media/gallery-img-09.48501852fdf5413df7f2.jpg",
+    "static/media/home-img-1.jpg": "/AstroMotion/static/media/home-img-1.e1510234affa8f643dcd.jpg",
     "static/media/slick.svg": "/AstroMotion/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/AstroMotion/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/AstroMotion/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/AstroMotion/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AstroMotion/index.html",
     "main.04c895a2.css.map": "/AstroMotion/static/css/main.04c895a2.css.map",
-    "main.849747c7.js.map": "/AstroMotion/static/js/main.849747c7.js.map",
+    "main.c19405c6.js.map": "/AstroMotion/static/js/main.c19405c6.js.map",
     "787.4b9a6eb5.chunk.js.map": "/AstroMotion/static/js/787.4b9a6eb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04c895a2.css",
-    "static/js/main.849747c7.js"
+    "static/js/main.c19405c6.js"
   ]
 }
