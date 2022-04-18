@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AstroMotion/static/css/main.04c895a2.css",
-    "main.js": "/AstroMotion/static/js/main.7fe1c354.js",
+    "main.css": "/AstroMotion/static/css/main.6b034040.css",
+    "main.js": "/AstroMotion/static/js/main.607b2527.js",
     "static/js/787.4b9a6eb5.chunk.js": "/AstroMotion/static/js/787.4b9a6eb5.chunk.js",
     "static/media/gfp-astro-timelapse.mp4": "/AstroMotion/static/media/gfp-astro-timelapse.b45cc39fd4086305d801.mp4",
     "static/media/map.JPG": "/AstroMotion/static/media/map.e6aa8c8e49ddf80108e9.JPG",
@@ -20,12 +20,12 @@
     "static/media/slick.ttf": "/AstroMotion/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/AstroMotion/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AstroMotion/index.html",
-    "main.04c895a2.css.map": "/AstroMotion/static/css/main.04c895a2.css.map",
-    "main.7fe1c354.js.map": "/AstroMotion/static/js/main.7fe1c354.js.map",
+    "main.6b034040.css.map": "/AstroMotion/static/css/main.6b034040.css.map",
+    "main.607b2527.js.map": "/AstroMotion/static/js/main.607b2527.js.map",
     "787.4b9a6eb5.chunk.js.map": "/AstroMotion/static/js/787.4b9a6eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04c895a2.css",
-    "static/js/main.7fe1c354.js"
+    "static/css/main.6b034040.css",
+    "static/js/main.607b2527.js"
   ]
 }
