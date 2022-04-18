@@ -34,7 +34,7 @@ const Background = () => {
                         isMobile === false ?
                             <ul>
                                 <li>
-                                    <NavLink to="/" activeClassName="active">Home
+                                    <NavLink to="/AstroMotion/" activeClassName="active">Home
                                         <div></div>
                                     </NavLink>
                                 </li>
@@ -67,7 +67,7 @@ const Background = () => {
                                     isNav &&
                                     <ul>
                                         <li>
-                                            <NavLink to="/" activeClassName="active">Home
+                                            <NavLink to="/AstroMotion/" activeClassName="active">Home
                                                 <div></div>
                                             </NavLink>
                                         </li>
@@ -93,7 +93,7 @@ const Background = () => {
 
                 </div>
                 <Routes>
-                    <Route path="/" element={<Home />}>
+                    <Route path="/AstroMotion" element={<Home />}>
                     </Route>
                     <Route path="/gallery" element={<Gallery />}>
                     </Route>
